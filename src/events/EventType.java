@@ -1,0 +1,16 @@
+package events;
+
+public enum EventType {
+    GAME_EXIT,
+    SETTINGS_SHOW,
+    SESSIONS_SHOW,
+    SESSIONS_LIST_UPDATE,
+    GO_BACK,
+    SESSION_START,
+    SESSION_RENDER,
+    MESSAGE_RECEIVE,
+    NODE_DISCONNECTED,
+    BECOME_ADMIN,
+    BECOME_VIEWER,
+    ERROR
+}
